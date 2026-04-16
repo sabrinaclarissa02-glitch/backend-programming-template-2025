@@ -16,3 +16,10 @@
 2. Create a new folder in `./src/api/components` (if needed). Remember to separate your codes to repositories, services, controllers, and routes.
 3. Add the new route in `./src/api/routes.js`.
 4. Test your new endpoints in the API client app.
+
+
+## PENJELASAN ROUTE
+1. endpoint POST /Undian untuk memulai undian dengan parameter user_id dan nama
+2. endpoint GET /jejak untuk melihat histori undian perorang yang membutuhkan parameter user_id
+3. endpoint GET /hadiah untuk melihat daftar hadiah yang tersedia
+4. endpoint GET /pemenang untuk melihat daftar pemenang
