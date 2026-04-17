@@ -1,4 +1,4 @@
-# 535250112
+# 535250112 Sabrina Clarissa Hendra
 
 # PENJELASAN ROUTE
 1. endpoint POST /Undian untuk memulai undian dengan parameter userid dan nama
