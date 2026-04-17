@@ -3,7 +3,7 @@ const { errorResponder, errorTypes } = require('../../../core/errors');
 
 async function mulaiUndian(request, response, next) {
   try {
-    const { user_id: userId, nama } = request.body;
+    const { userid: userId, nama } = request.body;
 
     if (!userId) {
       throw errorResponder(errorTypes.VALIDATION_ERROR, ' user id is required');
